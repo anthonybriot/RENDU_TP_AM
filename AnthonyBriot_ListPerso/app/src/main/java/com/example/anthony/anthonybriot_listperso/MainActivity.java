@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
     private List<Sport> genererSports(){
         List<Sport> sports = new ArrayList<Sport>();
-        sports.add(new Sport(Color.BLACK, "BASKETBALL", "Un sport collectif opposant deux équipes de cinq joueurs sur un terrain rectangulaire."));
-        sports.add(new Sport(Color.BLUE, "FOOTBALL", "Un sport collectif qui se joue principalement au pied avec un ballon sphérique. Il oppose deux équipes de onze joueurs dans un stade."));
-        sports.add(new Sport(Color.GREEN, "HANDBALL", "Un sport collectif joué à la main où deux équipes de sept joueurs s'affrontent avec un ballon sur un terrain rectangulaire."));
-        sports.add(new Sport(Color.RED, "VOLLEYBALL", "Un sport collectif mettant en jeu deux équipes de six joueurs séparés par un filet."));
-        sports.add(new Sport(Color.GRAY, "BASEBALL", "Un sport collectif dérivé des mêmes racines que le cricket, qui se pratique sur un terrain de gazon et de sable. Il se joue avec des battes pour frapper une balle lancée."));
+        sports.add(new Sport(R.mipmap.basket, "BASKETBALL", "Un sport collectif opposant deux équipes de cinq joueurs sur un terrain rectangulaire."));
+        sports.add(new Sport(R.mipmap.foot, "FOOTBALL", "Un sport collectif qui se joue principalement au pied avec un ballon sphérique. Il oppose deux équipes de onze joueurs dans un stade."));
+        sports.add(new Sport(R.mipmap.hand, "HANDBALL", "Un sport collectif joué à la main où deux équipes de sept joueurs s'affrontent avec un ballon sur un terrain rectangulaire."));
+        sports.add(new Sport(R.mipmap.volley, "VOLLEYBALL", "Un sport collectif mettant en jeu deux équipes de six joueurs séparés par un filet."));
+        sports.add(new Sport(R.mipmap.base, "BASEBALL", "Un sport collectif dérivé des mêmes racines que le cricket, qui se pratique sur un terrain de gazon et de sable. Il se joue avec des battes pour frapper une balle lancée."));
         return sports;
     }
 

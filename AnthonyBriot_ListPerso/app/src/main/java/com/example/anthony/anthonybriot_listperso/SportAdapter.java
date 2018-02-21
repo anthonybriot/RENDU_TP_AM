@@ -42,7 +42,9 @@ public class SportAdapter extends ArrayAdapter<Sport> {
         Sport sport = getItem(position);
         viewHolder.pseudo.setText(sport.getPseudo());
         viewHolder.text.setText(sport.getText());
-        viewHolder.avatar.setImageDrawable(new ColorDrawable(sport.getColor()));
+        //viewHolder.avatar.setImageDrawable(new ColorDrawable(sport.getColor()));
+        viewHolder.avatar.setImageResource(sport.getColor());
+
 
         return convertView;
     }
